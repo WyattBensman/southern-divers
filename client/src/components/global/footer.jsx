@@ -17,7 +17,8 @@ export default function Footer() {
           <i className="fa-solid fa-phone mr-2 mb-2"></i>911-394-2000
         </p>
         <p className="font-light">
-          <i class="fa-regular fa-envelope mr-2"></i>southerndivers@gmail.com
+          <i className="fa-regular fa-envelope mr-2"></i>
+          southerndivers@gmail.com
         </p>
       </div>
       <div className="md:w-fit md:mt-0 mt-12">

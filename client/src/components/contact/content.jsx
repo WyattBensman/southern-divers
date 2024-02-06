@@ -15,12 +15,13 @@ export default function Content() {
           <i className="fa-solid fa-phone mr-2 mb-2"></i>911-394-2000
         </p>
         <p className="text-xl font-light">
-          <i class="fa-regular fa-envelope mr-2"></i>southerndivers@gmail.com
+          <i className="fa-regular fa-envelope mr-2"></i>
+          southerndivers@gmail.com
         </p>
         {/* ADDRESS */}
         <h4 className="text-xl font-medium mt-8 my-4">Billing Address</h4>
         <p className="text-xl font-light">
-          <i class="fa-solid fa-map-location-dot mr-2"></i>11230 Nebraska
+          <i className="fa-solid fa-map-location-dot mr-2"></i>11230 Nebraska
           Avenue, 33602 Tampa, Florida
         </p>
       </div>
