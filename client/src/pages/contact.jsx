@@ -1,9 +1,9 @@
-import Content from "../components/contact/content";
+import ContactMain from "../components/contact/contact";
 
 export default function Contact() {
   return (
     <div className="mt-20">
-      <Content />
+      <ContactMain />
     </div>
   );
 }
