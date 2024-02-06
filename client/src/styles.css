@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.headerBox {
+  position: relative;
+  width: 70%;
+  left: 15%;
+  top: 45vh;
+  transform: translateY(-50%);
+  border: 1px solid white;
+  border-top: none;
+}
+
+.headerBox::before,
+.headerBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 1px;
+  background: white;
+}
+
+.headerBox::before {
+  left: 0;
+  width: 37.5%;
+}
+
+.headerBox::after {
+  right: 0;
+  width: 37.5%;
+}
