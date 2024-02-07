@@ -21,12 +21,25 @@ export default function Header() {
           >
             {/* Icon & Business Name - Top Border Aligned */}
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center pb-10">
-              <h1 className="md:text-4xl text-2xl text-white text-center">
-                Souther Divers
-              </h1>
+              <svg
+                className="w-[260px] h-[130px] text-center"
+                fill="transparent"
+                stroke="transparent"
+              >
+                <path id="curve" d="M 0 120 C 0 120, 130 0, 260 120"></path>
+                <text className="text-white" textAnchor="middle" fill="white">
+                  <textPath
+                    className="md:text-4xl text-2xl"
+                    href="#curve"
+                    startOffset="50%"
+                  >
+                    Southern Divers
+                  </textPath>
+                </text>
+              </svg>
               <Icon
                 icon="map:scuba-diving"
-                className="text-white md:w-20 md:h-20 w-16 h-16"
+                className="text-white md:w-20 md:h-20 w-16 h-16 mb-12 mt-[-40px]" // Adjust the negative margin value as needed
               />
             </div>
 

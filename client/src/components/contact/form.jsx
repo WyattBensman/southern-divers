@@ -54,8 +54,8 @@ export default function Form() {
             ref={ref}
             className={`w-7/8 bg-white py-8 px-12 shadow-lg min-h-[550px] ${
               inView
-                ? "transform scale-100 transition-transform duration-1000 ease-in-out"
-                : "transform scale-90 opacity-0 transition-transform duration-1000 ease-in-out"
+                ? "opacity-100 translate-y-0 transition-opacity duration-1000 ease-in-out"
+                : "opacity-0 translate-y-20"
             }`}
           >
             {formSubmitted ? (

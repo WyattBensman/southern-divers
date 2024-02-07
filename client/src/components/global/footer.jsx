@@ -14,11 +14,16 @@ export default function Footer() {
       <div className="md:w-fit">
         <h4 className="text-xl font-medium mb-4">Contact</h4>
         <p className="font-light">
-          <i className="fa-solid fa-phone mr-2 mb-2"></i>911-394-2000
+          <i className="fa-solid fa-phone mr-2 mb-2"></i>
+          <a href="tel:9113942000" className="text-white">
+            911-394-2000
+          </a>
         </p>
         <p className="font-light">
           <i className="fa-regular fa-envelope mr-2"></i>
-          southerndivers@gmail.com
+          <a href="mailto:southerndivers@gmail.com" className="text-white">
+            southerndivers@gmail.com
+          </a>
         </p>
       </div>
       <div className="md:w-fit md:mt-0 mt-12">
@@ -53,11 +58,6 @@ export default function Footer() {
           Underwater Inspections & Repair
         </Link>
       </div>
-      {/* <div className="md:w-1/4 md:mb-0 mb-12 flex justify-center md:order-3 order-1">
-        <button className="px-6 py-3 h-fit border border-white text-white hover:bg-white hover:text-blue-600 duration-200">
-          Request a Quote
-        </button>
-      </div> */}
     </div>
   );
 }

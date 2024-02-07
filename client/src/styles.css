@@ -2,6 +2,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 .headerBox {
   position: relative;
   width: 70%;
@@ -29,4 +33,15 @@ body {
 .headerBox::after {
   right: 0;
   width: 37.5%;
+}
+
+.arched-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
 }

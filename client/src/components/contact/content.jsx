@@ -8,8 +8,8 @@ export default function Content() {
           ref={ref}
           className={`md:w-1/2 mt-12 ${
             inView
-              ? "transform scale-100 transition-transform duration-1000 ease-in-out"
-              : "transform scale-90 opacity-0 transition-transform duration-1000 ease-in-out"
+              ? "opacity-100 translate-y-0 transition-opacity duration-1000 ease-in-out"
+              : "opacity-0 translate-y-20"
           }`}
         >
           <h2 className="text-5xl font-semibold  mb-4">
@@ -23,11 +23,14 @@ export default function Content() {
             {/* CONTACT */}
             <h4 className="text-xl font-medium mb-4">Contact</h4>
             <p className="text-xl font-light">
-              <i className="fa-solid fa-phone mr-2 mb-2"></i>911-394-2000
+              <i className="fa-solid fa-phone mr-2 mb-2"></i>
+              <a href="tel:9113942000">911-394-2000</a>
             </p>
             <p className="text-xl font-light">
               <i className="fa-regular fa-envelope mr-2"></i>
-              southerndivers@gmail.com
+              <a href="mailto:southerndivers@gmail.com">
+                southerndivers@gmail.com
+              </a>
             </p>
             {/* ADDRESS */}
             <h4 className="text-xl font-medium mt-8 my-4">Billing Address</h4>

@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import ContactMain from "../components/contact/contact";
 import Header from "../components/home/Header";
 import AboutUs from "../components/home/aboutUs";
 import Services from "../components/home/services";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />

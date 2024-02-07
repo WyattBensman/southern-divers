@@ -8,8 +8,8 @@ export default function AboutUs() {
           ref={ref}
           className={`md:flex mt-20 ${
             inView
-              ? "transform scale-100 transition-transform duration-1000 ease-in-out"
-              : "transform scale-90 opacity-0 transition-transform duration-1000 ease-in-out"
+              ? "opacity-100 translate-y-0 transition-opacity duration-1000 ease-in-out"
+              : "opacity-0 translate-y-20"
           }`}
         >
           <div className="flex flex-col md:w-3/5">

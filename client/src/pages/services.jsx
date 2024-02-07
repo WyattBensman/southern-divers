@@ -1,8 +1,13 @@
-import BoatSalvage from "../components/services/BoatSalvage";
-import DredgingErosion from "../components/services/DredgingErosion";
-import InspectionsRepair from "../components/services/InspectionsRepair";
+import { useEffect } from "react";
+import BoatSalvage from "../components/services/boatSalvage";
+import DredgingErosion from "../components/services/dredgingErosion";
+import InspectionsRepair from "../components/services/inspectionsRepair";
 
 export default function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="mt-20">
       <div className="bg-gray-100 py-12">

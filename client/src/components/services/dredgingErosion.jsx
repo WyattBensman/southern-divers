@@ -7,10 +7,11 @@ export default function DredgingErosion() {
       {({ inView, ref }) => (
         <div
           ref={ref}
+          id="dredging-erosion"
           className={`my-16 ${
             inView
-              ? "transform scale-100 transition-transform duration-1000 ease-in-out"
-              : "transform scale-90 opacity-0 transition-transform duration-1000 ease-in-out"
+              ? "opacity-100 translate-y-0 transition-opacity duration-1000 ease-in-out"
+              : "opacity-0 translate-y-20"
           }`}
         >
           <h2 className="text-3xl font-semibold mb-4">
