@@ -93,7 +93,7 @@ export default function Navbar() {
           id="navbar-default"
         >
           <ul className="text-lg text-center flex flex-col md:border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:border-0 mt-2 md:mt-0">
-            <li className="mb-2">
+            <li className="md:mb-0 mb-2">
               <NavLink
                 to="/"
                 className="hover:text-blue-600 ease-in-out duration-200"
