@@ -17,8 +17,8 @@ export default function DredgingErosion() {
           <h2 className="text-3xl font-semibold mb-4">
             Dredging and Erosion Control
           </h2>
-          <div className="flex">
-            <img src="/images/erosion-control.png" alt="" className="w-80" />
+          <div className="flex md:flex-row flex-col">
+            <img src="/images/erosion-control.png" alt="" className="md:w-80" />
             <div className="flex flex-col justify-between ml-6 mt-6 mb-12 lg:mr-32">
               <p className="text-lg font-light">
                 Experience comprehensive dredging solutions for both commercial

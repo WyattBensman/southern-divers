@@ -17,12 +17,18 @@ export default function Services() {
           <div className="flex md:flex-row flex-col gap-x-4 gap-y-10">
             {/* BOAT SALVAGE */}
             <div className="md:w-1/3">
-              <img
-                src="/images/boat-salvage.png"
-                className="w-full"
-                alt="Professional Boat Salvage Services"
-              />
-              <h3 className="text-xl font-medium mt-2">Boat Salvage</h3>
+              <Link to="/services#boat-salvage">
+                <img
+                  src="/images/boat-salvage.png"
+                  className="w-full hover:opacity-75 duration-200 cursor-pointer"
+                  alt="Professional Boat Salvage Services"
+                />
+              </Link>
+              <Link to="/services#boat-salvage">
+                <h3 className="text-xl font-medium mt-2 hover:opacity-75 duration-200 cursor-pointer">
+                  Boat Salvage
+                </h3>
+              </Link>
               <p className="font-light mb-6">
                 Expert retrieval of sunken vessels, ensuring the restoration and
                 protection of your marine assets.
@@ -37,14 +43,18 @@ export default function Services() {
             </div>
             {/* DREDGING EROSION CONTROL */}
             <div className="md:w-1/3">
-              <img
-                src="/images/dredging-erosion-control.png"
-                className="w-full"
-                alt="Dredging Operation for Erosion Control"
-              />
-              <h3 className="text-xl font-medium mt-2">
-                Dredging & Erosion Control
-              </h3>
+              <Link to="/services#dredging-erosion">
+                <img
+                  src="/images/dredging-erosion-control.png"
+                  className="w-full hover:opacity-75 duration-200 cursor-pointer"
+                  alt="Dredging Operation for Erosion Control"
+                />
+              </Link>
+              <Link to="/services#dredging-erosion">
+                <h3 className="text-xl font-medium mt-2 hover:opacity-75 duration-200 cursor-pointer">
+                  Dredging & Erosion Control
+                </h3>
+              </Link>
               <p className="font-light mb-6">
                 Precision dredging and erosion solutions, preserving and
                 enhancing the resilience of your coastal environment.
@@ -59,14 +69,18 @@ export default function Services() {
             </div>
             {/* Underwater Inspections & Repair */}
             <div className="md:w-1/3">
-              <img
-                src="/images/underwater-inspections.png"
-                className="w-full"
-                alt="Professional Underwater Maintenance and Inspections"
-              />
-              <h3 className="text-xl font-medium mt-2">
-                Underwater Inspections & Repair
-              </h3>
+              <Link to="/services#inspections-salvage">
+                <img
+                  src="/images/underwater-inspections.png"
+                  className="w-full hover:opacity-75 duration-200 cursor-pointer"
+                  alt="Professional Underwater Maintenance and Inspections"
+                />
+              </Link>
+              <Link to="/services#inspections-salvage">
+                <h3 className="text-xl font-medium mt-2 hover:opacity-75 duration-200 cursor-pointer">
+                  Underwater Inspections & Repair
+                </h3>
+              </Link>
               <p className="font-light mb-6">
                 Thorough underwater assessments and seamless repairs,
                 safeguarding and revitalizing your marine structures with

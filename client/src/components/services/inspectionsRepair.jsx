@@ -17,11 +17,11 @@ export default function InspectionsRepair() {
           <h2 className="text-3xl font-semibold mb-4">
             Underwater Inspections and Repair
           </h2>
-          <div className="flex">
+          <div className="flex md:flex-row flex-col">
             <img
               src="/images/underwater-inspections-repair.png"
               alt=""
-              className="w-80"
+              className="md:w-80"
             />
             <div className="flex flex-col justify-between ml-6 mt-6 mb-12 lg:mr-32">
               <p className="text-lg font-light">

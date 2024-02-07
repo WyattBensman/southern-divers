@@ -5,7 +5,22 @@ import InspectionsRepair from "../components/services/inspectionsRepair";
 
 export default function Services() {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const { hash } = window.location;
+
+    if (hash) {
+      const targetElement = document.getElementById(hash.substring(1));
+
+      if (targetElement) {
+        // Adjust the scroll position to center the target element
+        targetElement.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "center",
+        });
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
   }, []);
 
   return (
