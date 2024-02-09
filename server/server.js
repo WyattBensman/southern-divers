@@ -16,8 +16,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: process.env.EMAIL_USER || "wyatt@joinlifelist.com",
-    pass: process.env.EMAIL_PASSWORD || "sifj zhas ijrb fhfu",
+    user: process.env.EMAIL_USER || "southerndiversllc@gmail.com",
+    pass: process.env.EMAIL_PASSWORD || "xqwi omml vbub loah",
   },
 });
 
