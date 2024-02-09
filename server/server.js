@@ -30,7 +30,7 @@ app.post("/api/form-submit", (req, res) => {
   const mailOptions = {
     from: "wyatt@joinlifelist.com",
     to: "wyatt@joinlifelist.com",
-    subject: `New Project Request`,
+    subject: `${companyName} - New Project Request`,
     html: `
       <p>Name: ${name}</p>
       <p>Phone Number: ${phoneNumber}</p>
