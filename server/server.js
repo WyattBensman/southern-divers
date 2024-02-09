@@ -28,8 +28,8 @@ app.post("/api/form-submit", (req, res) => {
 
   // Construct email message
   const mailOptions = {
-    from: "wyatt@joinlifelist.com",
-    to: "wyatt@joinlifelist.com",
+    from: "southerndiversllc@gmail.com",
+    to: "southerndiversllc@gmail.com",
     subject: `${companyName} - New Project Request`,
     html: `
       <p>Name: ${name}</p>
