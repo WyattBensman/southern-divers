@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ContactMain from "../components/contact/contact";
-import Header from "../components/home/Header";
+import Header from "../components/home/header";
 import AboutUs from "../components/home/aboutUs";
 import Services from "../components/home/services";
 
