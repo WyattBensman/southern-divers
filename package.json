@@ -2,6 +2,9 @@
   "name": "southern-divers",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "20.x"
+  },
   "main": "server/server.js",
   "dependencies": {
     "concurrently": "^8.2.2"
