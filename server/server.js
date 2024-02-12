@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 // Middleware to parse JSON and form data
 app.use(bodyParser.json());
@@ -52,6 +52,6 @@ app.post("/api/form-submit", (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
