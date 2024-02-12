@@ -2,6 +2,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
+const path = require("path");
 
 dotenv.config();
 
@@ -49,6 +50,14 @@ app.post("/api/form-submit", (req, res) => {
     }
     res.status(200).send("Email sent: " + info.response);
   });
+});
+
+// Serve the React app static files
+app.use(express.static(path.join(__dirname, "../client/dist")));
+
+// Catch-all route to serve the main HTML file
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
 // Start the server
