@@ -5,6 +5,7 @@ import InspectionsRepair from "../components/services/inspectionsRepair";
 
 export default function Services() {
   useEffect(() => {
+    document.title = "Services | Southern Divers";
     const { hash } = window.location;
 
     if (hash) {

@@ -24,7 +24,7 @@ export default function Content() {
             <h4 className="text-xl font-medium mb-4">Contact</h4>
             <p className="text-xl font-light">
               <i className="fa-solid fa-phone mr-2 mb-2"></i>
-              <a href="tel:9113942000">911-394-2000</a>
+              <a href="tel:9113942000">813-528-2166</a>
             </p>
             <p className="text-xl font-light">
               <i className="fa-regular fa-envelope mr-2"></i>
@@ -35,8 +35,8 @@ export default function Content() {
             {/* ADDRESS */}
             <h4 className="text-xl font-medium mt-8 my-4">Billing Address</h4>
             <p className="text-xl font-light">
-              <i className="fa-solid fa-map-location-dot mr-2"></i>11230
-              Nebraska Avenue, 33602 Tampa, Florida
+              <i className="fa-solid fa-map-location-dot mr-2"></i>904
+              Riverscape Street, Bradenton, Florida, 34208
             </p>
           </div>
         </div>

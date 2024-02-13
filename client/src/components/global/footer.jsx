@@ -16,7 +16,7 @@ export default function Footer() {
         <p className="font-light">
           <i className="fa-solid fa-phone mr-2 mb-2"></i>
           <a href="tel:9113942000" className="text-white">
-            911-394-2000
+            813-528-2166
           </a>
         </p>
         <p className="font-light">
@@ -29,30 +29,29 @@ export default function Footer() {
       <div className="md:w-fit md:mt-0 mt-12">
         <h4 className="text-xl font-medium mb-4">Billing Address</h4>
         <p className="font-light">
-          <i className="fa-solid fa-map mr-2 mb-2"></i>11230 Sidney Freyburg
-          Road
+          <i className="fa-solid fa-map mr-2 mb-2"></i>904 Riverscape Street
         </p>
         <p className="font-light">
-          <i className="fa-solid fa-map text-blue-600 mr-2 mb-2"></i>33602,
-          Tampa, Florida
+          <i className="fa-solid fa-map text-blue-600 mr-2 mb-2"></i>
+          Bradenton, Florida, 34208
         </p>
       </div>
       <div className="md:w-fit md:mt-0 mt-12">
         <h4 className="text-xl font-medium mb-4">Services</h4>
         <Link
-          to="/services"
+          to="/services#boat-salvage"
           className="block font-light mb-2 hover:text-gray-200 hover:underline duration-200 cursor-pointer"
         >
           Boat Salvage
         </Link>
         <Link
-          to="/services"
+          to="/services#dredging-erosion"
           className="block font-light mb-2 hover:text-gray-200 hover:underline duration-200 cursor-pointer"
         >
           Dredging & Erosion Control
         </Link>
         <Link
-          to="/services"
+          to="/services#inspections-salvage"
           className="block font-light hover:text-gray-200 hover:underline duration-200 cursor-pointer"
         >
           Underwater Inspections & Repair

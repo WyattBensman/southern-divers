@@ -47,6 +47,10 @@ export default function Navbar() {
     setIsNavOpen(!isNavOpen);
   };
 
+  // CLOSE NAV
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
   return (
     <nav
       className={`fixed top-0 z-10 py-4 w-full py-1 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 ${
@@ -96,23 +100,40 @@ export default function Navbar() {
             <li className="md:mb-0 mb-2">
               <NavLink
                 to="/"
-                className="hover:text-blue-600 ease-in-out duration-200"
+                onClick={closeNav}
+                className={`${
+                  location.pathname === "/services" ||
+                  location.pathname === "/contact" ||
+                  isScrolled ||
+                  isNavOpen
+                    ? "text-black"
+                    : "text-white"
+                } hover:text-blue-600 ease-in-out duration-200`}
               >
                 Home
               </NavLink>
             </li>
-            <li>
+            <li className="md:mt-0 md:mb-0 mt-1 mb-1">
               <NavLink
                 to="/services"
-                className="hover:text-blue-600 ease-in-out duration-200"
+                onClick={closeNav}
+                className={`${
+                  location.pathname === "/services" ||
+                  location.pathname === "/contact" ||
+                  isScrolled ||
+                  isNavOpen
+                    ? "text-black"
+                    : "text-white"
+                } hover:text-blue-600 ease-in-out duration-200`}
               >
                 Services
               </NavLink>
             </li>
 
-            <li className="md:mt-0 md:mb-0 mt-4 mb-3">
+            <li className="md:mt-0 md:mb-0 mt-5 mb-3">
               <NavLink
                 to="/contact"
+                onClick={closeNav}
                 className="bg-blue-600 px-6 py-3 text-white hover:bg-blue-800 hover:shadow-md duration-200"
               >
                 Contact Us

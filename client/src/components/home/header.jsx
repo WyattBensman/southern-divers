@@ -48,10 +48,10 @@ export default function Header() {
             </h1>
 
             {/* Button - Bottom Border Aligned */}
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 flex items-center">
               <Link
                 to="/contact"
-                className="w-52 md:w-64 bg-blue-600 px-6 py-3 text-white text-center md:text-xl text-lg hover:bg-blue-800 hover:shadow-md duration-200"
+                className="w-full md:w-auto flex-nowrap bg-blue-600 px-6 py-3 text-white text-center md:text-xl text-lg hover:bg-blue-800 hover:shadow-md duration-200 whitespace-nowrap"
               >
                 Request A Quote
               </Link>
