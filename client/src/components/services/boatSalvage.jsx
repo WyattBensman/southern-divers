@@ -18,8 +18,8 @@ export default function BoatSalvage() {
           <div className="flex md:flex-row flex-col">
             <img
               src="/images/boat-salvage-service.png"
-              alt=""
-              className="md:w-80"
+              alt="Professional Boat Salvaging"
+              className="md:w-80 h-full"
             />
             <div className="flex flex-col justify-between md:ml-6 mt-6 mb-12 lg:mr-32">
               <p className="text-lg font-light">

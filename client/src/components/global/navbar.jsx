@@ -62,7 +62,11 @@ export default function Navbar() {
       <div className="flex flex-wrap items-center justify-between">
         {/* Brand Logo */}
         <Link to="/">
-          <img className="w-12" src="/images/southern-divers-logo.png" />
+          <img
+            className="w-12 h-12"
+            src="/images/southern-divers-logo.png"
+            alt="Southern Divers Logo"
+          />
         </Link>
         {/* Toggler */}
         <button

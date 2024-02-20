@@ -24,7 +24,7 @@ export default function Content() {
             <h4 className="text-xl font-medium mb-4">Contact</h4>
             <p className="text-xl font-light">
               <i className="fa-solid fa-phone mr-2 mb-2"></i>
-              <a href="tel:9113942000">813-528-2166</a>
+              <a href="tel:8135282166">813-528-2166</a>
             </p>
             <p className="text-xl font-light">
               <i className="fa-regular fa-envelope mr-2"></i>

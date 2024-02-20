@@ -20,8 +20,8 @@ export default function InspectionsRepair() {
           <div className="flex md:flex-row flex-col">
             <img
               src="/images/underwater-inspections-repair.png"
-              alt=""
-              className="md:w-80"
+              alt="Expert underwater inspections and repair"
+              className="md:w-80 h-full"
             />
             <div className="flex flex-col justify-between ml-6 mt-6 mb-12 lg:mr-32">
               <p className="text-lg font-light">

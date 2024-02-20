@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: process.env.EMAIL_USER || "southerndiversllc@gmail.com",
-    pass: process.env.EMAIL_PASSWORD || "xqwi omml vbub loah",
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASSWORD,
   },
 });
 
@@ -29,8 +29,8 @@ app.post("/api/form-submit", (req, res) => {
 
   // Construct email message
   const mailOptions = {
-    from: "southerndiversllc@gmail.com",
-    to: "southerndiversllc@gmail.com",
+    from: process.env.EMAIL_USER,
+    to: process.env.EMAIL_USER,
     subject: `${companyName} - New Project Request`,
     html: `
       <p>Name: ${name}</p>
