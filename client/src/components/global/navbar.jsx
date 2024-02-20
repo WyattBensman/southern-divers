@@ -64,7 +64,7 @@ export default function Navbar() {
         <Link to="/">
           <img
             className="w-12 h-12"
-            src="/images/southern-divers-logo.png"
+            src="/images/southern-divers-logo-nav.png"
             alt="Southern Divers Logo"
           />
         </Link>
